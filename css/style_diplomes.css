@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #252525;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+#navbar h2 a {
+    color: #c1d8f0;
+    font-family: 'Borel', cursive;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+#navbar ul li a img {
+    width: 50px;
+}
+
+#navbar ul li:hover a {
+    color: #c1d8f0;
+}
+
+#cv-btn {
+    background-color: #c1d8f0;
+    padding: 6px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#cv-btn:hover{
+    background: #68aaf0;
+}
+
+section {
+    color: #fff;
+    padding: 50px;
+}
+
+section h1 {
+    color: #c1d8f0;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#brevet {
+    width: 22%;
+    padding: 20px;
+    margin-right: 15px;
+    background: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#baccalaureat {
+    width: 22%;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#brevet h2, #baccalaureat h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #c1d8f0;
+}
+
+#brevet .content, #baccalaureat .content {
+    text-align: justify;
+}
+
+#brevet p, #baccalaureat p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+footer{
+    position: relative;
+    background: #1c1c1c;
+    padding: 40px 50px 40px;
+    margin-top: -231px;
+}
+
+footer #cols {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer #cols #about-cols h3 {
+    color: #c1d8f0;
+}
+footer #cols #about-cols p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+footer #cols .links-col h4, footer #cols .news-col h4{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer #cols .links-col i {
+    color: #c1d8f0;
+    font-size: 15px;
+}
+
+footer #cols .links-col a {
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer #cols .links-col a:hover {
+    color:#c1d8f0;
+}
